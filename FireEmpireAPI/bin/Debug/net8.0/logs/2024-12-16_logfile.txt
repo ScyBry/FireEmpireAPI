@@ -1,0 +1,471 @@
+2024-12-16 13:39:16.3156 ERROR Error sending email: RazorLightProjectItem of type RazorLight.Razor.FileSystemRazorProjectItem with key /@model Views.Models.FeedbackEmailModel
+
+<!doctype html>
+<html>
+
+<head>
+    <title>Food Delivery Website Activation Email</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+        /* Base */
+        body {
+            margin: 0;
+            padding: 0;
+            min-width: 100%;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #fafafa;
+            color: #222222;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.25;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+
+        table td {
+            vertical-align: top;
+        }
+
+        /* Layout */
+        .email-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .email-header {
+            background-color: #0070f3;
+            padding: 24px;
+            color: #ffffff;
+        }
+
+        .email-body {
+            padding: 24px;
+            background-color: #ffffff;
+        }
+
+        .email-footer {
+            background-color: #f6f6f6;
+            padding: 24px;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            background-color: #0070f3;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="email-wrapper">
+    <div class="email-header">
+        <h1>Welcome to Becodemy</h1>
+    </div>
+    <div class="email-body">
+        <p>Hello</p>
+        <p>
+            Thank you for registering with Becodemy. To activate your account,
+            please use the following activation code:
+        </p>
+        <h2>
+            skfsd
+        </h2>
+        <p>
+            Please enter this code on the activation page within the next 5
+            minutes.
+        </p>
+        <p>
+            If you did not register for a Becodemy account, please ignore this
+            email.
+        </p>
+    </div>
+    <div class="email-footer">
+        <p>
+            If you have any questions, please don't hesitate to contact us at
+            <a href="mailto:sfk;sdkf.com">support@becodemy.com</a>
+        </p>
+    </div>
+</div>
+</body>
+
+</html>.cshtml could not be found by the RazorLightProject of type RazorLight.Razor.FileSystemRazorProject and does not exist in dynamic templates. Set RazorLightOptions.EnableDebugMode to true to allow the "KnownDynamicTemplateKeys" and "KnownProjectTemplateKeys" properties on this exception to be set.
+2024-12-16 13:40:21.7027 ERROR Error sending email: RazorLightProjectItem of type RazorLight.Razor.FileSystemRazorProjectItem with key /@model Views.Models.FeedbackEmailModel
+
+<!doctype html>
+<html>
+
+<head>
+    <title>Food Delivery Website Activation Email</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+        /* Base */
+        body {
+            margin: 0;
+            padding: 0;
+            min-width: 100%;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #fafafa;
+            color: #222222;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.25;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+
+        table td {
+            vertical-align: top;
+        }
+
+        /* Layout */
+        .email-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .email-header {
+            background-color: #0070f3;
+            padding: 24px;
+            color: #ffffff;
+        }
+
+        .email-body {
+            padding: 24px;
+            background-color: #ffffff;
+        }
+
+        .email-footer {
+            background-color: #f6f6f6;
+            padding: 24px;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            background-color: #0070f3;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="email-wrapper">
+    <div class="email-header">
+        <h1>Welcome to Becodemy</h1>
+    </div>
+    <div class="email-body">
+        <p>Hello</p>
+        <p>
+            Thank you for registering with Becodemy. To activate your account,
+            please use the following activation code:
+        </p>
+        <h2>
+            skfsd
+        </h2>
+        <p>
+            Please enter this code on the activation page within the next 5
+            minutes.
+        </p>
+        <p>
+            If you did not register for a Becodemy account, please ignore this
+            email.
+        </p>
+    </div>
+    <div class="email-footer">
+        <p>
+            If you have any questions, please don't hesitate to contact us at
+            <a href="mailto:sfk;sdkf.com">support@becodemy.com</a>
+        </p>
+    </div>
+</div>
+</body>
+
+</html>.cshtml could not be found by the RazorLightProject of type RazorLight.Razor.FileSystemRazorProject and does not exist in dynamic templates. Set RazorLightOptions.EnableDebugMode to true to allow the "KnownDynamicTemplateKeys" and "KnownProjectTemplateKeys" properties on this exception to be set.
+2024-12-16 13:42:15.4260 ERROR Error sending email: RazorLightProjectItem of type RazorLight.Razor.FileSystemRazorProjectItem with key /@model Views.Models.FeedbackEmailModel
+
+<!doctype html>
+<html>
+
+<head>
+    <title>Food Delivery Website Activation Email</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+        /* Base */
+        body {
+            margin: 0;
+            padding: 0;
+            min-width: 100%;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #fafafa;
+            color: #222222;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.25;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+
+        table td {
+            vertical-align: top;
+        }
+
+        /* Layout */
+        .email-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .email-header {
+            background-color: #0070f3;
+            padding: 24px;
+            color: #ffffff;
+        }
+
+        .email-body {
+            padding: 24px;
+            background-color: #ffffff;
+        }
+
+        .email-footer {
+            background-color: #f6f6f6;
+            padding: 24px;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            background-color: #0070f3;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="email-wrapper">
+    <div class="email-header">
+        <h1>Welcome to Becodemy</h1>
+    </div>
+    <div class="email-body">
+        <p>Hello</p>
+        <p>
+            Thank you for registering with Becodemy. To activate your account,
+            please use the following activation code:
+        </p>
+        <h2>
+            skfsd
+        </h2>
+        <p>
+            Please enter this code on the activation page within the next 5
+            minutes.
+        </p>
+        <p>
+            If you did not register for a Becodemy account, please ignore this
+            email.
+        </p>
+    </div>
+    <div class="email-footer">
+        <p>
+            If you have any questions, please don't hesitate to contact us at
+            <a href="mailto:sfk;sdkf.com">support@becodemy.com</a>
+        </p>
+    </div>
+</div>
+</body>
+
+</html>.cshtml could not be found by the RazorLightProject of type RazorLight.Razor.FileSystemRazorProject and does not exist in dynamic templates. Set RazorLightOptions.EnableDebugMode to true to allow the "KnownDynamicTemplateKeys" and "KnownProjectTemplateKeys" properties on this exception to be set.
+2024-12-16 13:46:27.9383 ERROR Error sending email: RazorLightProjectItem of type RazorLight.Razor.FileSystemRazorProjectItem with key /<!doctype html>
+<html>
+
+<head>
+    <title>Food Delivery Website Activation Email</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+        /* Base */
+        body {
+            margin: 0;
+            padding: 0;
+            min-width: 100%;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #fafafa;
+            color: #222222;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.25;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+
+        table td {
+            vertical-align: top;
+        }
+
+        /* Layout */
+        .email-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .email-header {
+            background-color: #0070f3;
+            padding: 24px;
+            color: #ffffff;
+        }
+
+        .email-body {
+            padding: 24px;
+            background-color: #ffffff;
+        }
+
+        .email-footer {
+            background-color: #f6f6f6;
+            padding: 24px;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            background-color: #0070f3;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="email-wrapper">
+    <div class="email-header">
+        <h1>Welcome to Becodemy</h1>
+    </div>
+    <div class="email-body">
+        <p>Hello</p>
+        <p>
+            Thank you for registering with Becodemy. To activate your account,
+            please use the following activation code:
+        </p>
+        <h2>
+            skfsd
+        </h2>
+        <p>
+            Please enter this code on the activation page within the next 5
+            minutes.
+        </p>
+        <p>
+            If you did not register for a Becodemy account, please ignore this
+            email.
+        </p>
+    </div>
+    <div class="email-footer">
+        <p>
+            If you have any questions, please don't hesitate to contact us at
+            <a href="mailto:sfk;sdkf.com">support@becodemy.com</a>
+        </p>
+    </div>
+</div>
+</body>
+
+</html>.cshtml could not be found by the RazorLightProject of type RazorLight.Razor.FileSystemRazorProject and does not exist in dynamic templates. Set RazorLightOptions.EnableDebugMode to true to allow the "KnownDynamicTemplateKeys" and "KnownProjectTemplateKeys" properties on this exception to be set.
+2024-12-16 13:57:32.0991 ERROR Error sending email: Template not found at path: C:\Users\Oleg\source\repos\FireEmpireAPI\FireEmpireAPI\Views\Models\FeedbackEmail.cshtml
+2024-12-16 13:58:19.4704 ERROR Error sending email: Template not found at path: C:\Users\Oleg\source\repos\FireEmpireAPI\FireEmpireAPI\Views\Models\FeedbackEmail.cshtml
+2024-12-16 14:01:39.5812 ERROR Error sending email: Template not found at path: C:\Users\Oleg\source\repos\FireEmpireAPI\FireEmpireAPI\Views\Models\FeedbackEmail.cshtml
+2024-12-16 14:09:47.0635 ERROR Error sending email: Template not found at path: FeedbackEmail.cshtml
+2024-12-16 14:10:47.4406 ERROR Error sending email: Can't load metadata reference from the entry assembly. Make sure PreserveCompilationContext is set to true in *.csproj file
+2024-12-16 14:49:45.1927 ERROR Error sending email: Could not find a part of the path 'C:\Users\Oleg\source\repos\FireEmpireAPI\FireEmpireAPI\Templates\Email\FeedbackEmail.html'.
+2024-12-16 14:51:55.8333 ERROR Error sending email: Could not find a part of the path 'C:\Users\Oleg\source\repos\FireEmpireAPI\FireEmpireAPI\FireEmpireAPI\Templates\Email\FeedbackEmail.html'.
+2024-12-16 14:53:58.0492 ERROR Error sending email: Could not find file 'C:\Users\Oleg\source\repos\FireEmpireAPI\FireEmpireAPI;Templates;Email;FeedbackEmail.html'.
+2024-12-16 14:58:07.5542 ERROR Error sending email: Could not find a part of the path 'C:\Users\Oleg\source\repos\FireEmpireAPI\FireEmpireAPI\FireEmpireAPI\Tempates\Email\FeedbackEmail.html'.
+2024-12-16 14:58:32.0048 ERROR Error sending email: Input string was not in a correct format. Failure to parse near offset 308. Expected an ASCII digit.
+2024-12-16 14:59:43.6277 ERROR Error sending email: Input string was not in a correct format. Failure to parse near offset 308. Expected an ASCII digit.
+2024-12-16 15:02:27.2356 ERROR Error sending email: Could not find a part of the path 'C:\Users\Oleg\source\repos\FireEmpireAPI\FireEmpireAPI\Templates\Email\FeedbackEmail.html'.
+2024-12-16 15:02:50.7245 ERROR Error sending email: Could not find a part of the path 'C:\Users\Oleg\source\repos\FireEmpireAPI\FireEmpireAPI\Templates\Email\FeedbackEmail.html'.

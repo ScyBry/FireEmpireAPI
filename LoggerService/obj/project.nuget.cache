@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qdBCseDnU4k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Oleg\\source\\repos\\FireEmpireAPI\\LoggerService\\LoggerService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Oleg\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}

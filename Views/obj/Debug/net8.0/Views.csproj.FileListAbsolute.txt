@@ -1,0 +1,11 @@
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\bin\Debug\net8.0\Views.deps.json
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\bin\Debug\net8.0\Views.dll
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\bin\Debug\net8.0\Views.pdb
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\obj\Debug\net8.0\Views.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\obj\Debug\net8.0\Views.AssemblyInfoInputs.cache
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\obj\Debug\net8.0\Views.AssemblyInfo.cs
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\obj\Debug\net8.0\Views.csproj.CoreCompileInputs.cache
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\obj\Debug\net8.0\Views.dll
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\obj\Debug\net8.0\refint\Views.dll
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\obj\Debug\net8.0\Views.pdb
+C:\Users\Oleg\source\repos\FireEmpireAPI\Views\obj\Debug\net8.0\ref\Views.dll
