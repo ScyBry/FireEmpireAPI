@@ -10,6 +10,7 @@ public class ServiceManager : IServiceManager
     private readonly Lazy<IFileService> _fileService;
     private readonly Lazy<IProductService> _productService;
     private readonly Lazy<IProjectService> _projectService;
+    private readonly Lazy<>
 
     public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger, IMapper mapper)
     {

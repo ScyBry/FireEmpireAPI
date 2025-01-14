@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Entities.Models;
+using Shared.DataTransferObjects;
 using Shared.DataTransferObjects.Product;
 using Shared.DataTransferObjects.Projects;
 
@@ -14,5 +15,7 @@ public class MappingProfile : Profile
 
         CreateMap<ProductForCreationDTO, Product>().ForMember(c => c.ImagesPath, opt => opt.Ignore());
         CreateMap<Product, ProductDTO>();
+
+        CreateMap<FireworkForCreationDTO, Firework>();
     }
 }
