@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FireEmpireAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9714354939f21b9b61d7084c201161b4dcd5244a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+651d19eae25dfc74f873e54e245b593c362df453")]
 [assembly: System.Reflection.AssemblyProductAttribute("FireEmpireAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FireEmpireAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

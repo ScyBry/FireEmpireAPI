@@ -13,7 +13,7 @@ public class FireworkRepository : RepositoryBase<Firework>, IFireworkRepository
     public async Task<IEnumerable<Firework>> GetAllFireworksAsync(bool trackChanges) =>
         await FindAll(trackChanges).ToListAsync();
 
-    public async Task<Firework> GetFireworkByIdAsync(int id, bool trackChanges) =>
+    public async Task<Firework> GetFireworkByIdAsync(Guid id, bool trackChanges) =>
         await FindByCondition(c => c.Id.Equals(id), trackChanges).FirstOrDefaultAsync();
 
     public void CreateFirework(Firework firework) => Create(firework);

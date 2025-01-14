@@ -16,6 +16,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.FireworkController",
+    "Method": "Create",
+    "RelativePath": "api/Firework/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firework",
+        "Type": "Shared.DataTransferObjects.FireworkForCreationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.FireworkController",
+    "Method": "Delete",
+    "RelativePath": "api/Firework/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.FireworkController",
+    "Method": "ExportToExcel",
+    "RelativePath": "api/Firework/ExportToExcel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.FireworkController",
+    "Method": "ImportFromExcel",
+    "RelativePath": "api/Firework/ImportFromExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ProductsController",
     "Method": "CreateProduct",
     "RelativePath": "api/Products/CreateProduct",

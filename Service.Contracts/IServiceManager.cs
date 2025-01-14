@@ -6,4 +6,5 @@ public interface IServiceManager
     IProductService ProductService { get; }
     IFileService FileService { get; }
     IEmailService EmailService { get; }
+    IFireworksService FireworksService { get; }
 }

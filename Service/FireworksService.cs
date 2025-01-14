@@ -1,22 +1,14 @@
 ﻿using AutoMapper;
 using Contracts;
-using Entities.Exceptions;
 using Entities.Models;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using OfficeOpenXml;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Service.Contracts;
 using Shared.DataTransferObjects;
 
 namespace Service
 {
-    internal sealed class FireworksService
+    public class FireworksService : IFireworksService
     {
         private readonly IRepositoryManager _repository;
         private readonly ILoggerManager _logger;
@@ -40,7 +32,7 @@ namespace Service
 
             var fireworkResponse = _mapper.Map<FireworkDTO>(fireworkEntity);
             return fireworkResponse;
-            
+
         }
 
         public async Task DeleteFirework(Guid id)
@@ -52,7 +44,7 @@ namespace Service
         }
 
 
-        public async void ImportFireworksFromExcelAsync(IFormFile file)
+        public async Task ImportFireworksFromExcelAsync(IFormFile file)
         {
             using var package = new ExcelPackage(file.OpenReadStream());
             var worksheet = package.Workbook.Worksheets[0];
@@ -110,16 +102,16 @@ namespace Service
                 row++;
             }
 
-            return package.GetAsByteArray();
+            return await package.GetAsByteArrayAsync();
         }
 
         private async Task<Firework> CheckIfFireworkExists(Guid Id)
         {
             var fireworkDb = await _repository.Firework.GetFireworkByIdAsync(Id, trackChanges: false);
-            
+
             return fireworkDb;
         }
     }
 
-   
+
 }
