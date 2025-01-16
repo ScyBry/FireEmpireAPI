@@ -29,3 +29,4 @@ C:\Users\oleg2\Source\Repos\FireEmpireAPI\Service.Contracts\obj\Debug\net8.0\Ser
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\Service.Contracts\obj\Debug\net8.0\refint\Service.Contracts.dll
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\Service.Contracts\obj\Debug\net8.0\Service.Contracts.pdb
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\Service.Contracts\obj\Debug\net8.0\ref\Service.Contracts.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI\Service.Contracts\obj\Debug\net8.0\Service.Contracts.sourcelink.json

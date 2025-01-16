@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Contracts;
+using Entities.Exceptions;
 using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using OfficeOpenXml;
@@ -27,12 +28,17 @@ namespace Service
         {
             var fireworkEntity = _mapper.Map<Firework>(firework);
 
+            bool isFireworkExists = await CheckIsFireworkExists(fireworkEntity);
+            if (isFireworkExists)
+            {
+                throw new FireworkConflictException(fireworkEntity);
+            }
+
             _repository.Firework.CreateFirework(fireworkEntity);
             await _repository.SaveAsync();
 
             var fireworkResponse = _mapper.Map<FireworkDTO>(fireworkEntity);
             return fireworkResponse;
-
         }
 
         public async Task DeleteFirework(Guid id)
@@ -44,18 +50,18 @@ namespace Service
         }
 
 
-        public async Task ImportFireworksFromExcelAsync(IFormFile file)
+        public async Task<IEnumerable<FireworkDTO>> ImportFireworksFromExcelAsync(IFormFile file)
         {
             using var package = new ExcelPackage(file.OpenReadStream());
             var worksheet = package.Workbook.Worksheets[0];
 
             var rowCount = worksheet.Dimension.Rows;
             var fireworks = new List<Firework>();
-
+            var notAddedFireworks = new List<Firework>();
 
             for (int row = 20; row < rowCount; row++)
             {
-                var firework = new Firework
+                var fireworkForCreation = new FireworkForCreationDTO
                 {
                     Name = worksheet.Cells[row, 1].Value?.ToString(),
                     Quantity = int.Parse(worksheet.Cells[row, 2].Value?.ToString() ?? "0"),
@@ -65,7 +71,17 @@ namespace Service
                     PricePerBox = decimal.Parse(worksheet.Cells[row, 6].Value?.ToString() ?? "0")
                 };
 
-                fireworks.Add(firework);
+                var fireworkEntity = _mapper.Map<Firework>(fireworkForCreation);
+
+                bool isFireworkExists = await CheckIsFireworkExists(fireworkEntity);
+                if (!isFireworkExists)
+                {
+                    fireworks.Add(fireworkEntity);
+                }
+                else
+                {
+                    notAddedFireworks.Add(fireworkEntity);
+                }
             }
 
             foreach (var firework in fireworks)
@@ -74,7 +90,12 @@ namespace Service
             }
 
             await _repository.SaveAsync();
+
+            // Convert to FireworkDTO before returning
+            var notAddedFireworkDtos = _mapper.Map<IEnumerable<FireworkDTO>>(notAddedFireworks);
+            return notAddedFireworkDtos;
         }
+
 
 
         public async Task<byte[]> ExportFireworksToExcelAsync()
@@ -103,6 +124,17 @@ namespace Service
             }
 
             return await package.GetAsByteArrayAsync();
+        }
+
+        private async Task<bool> CheckIsFireworkExists(Firework firework)
+        {
+            var fireworkFromDb = await _repository.Firework.GetFireworkByNormalizedName(firework.NormalizedName, false);
+            if (fireworkFromDb != null)
+            {
+                return true;
+            }
+
+            return false;
         }
 
         private async Task<Firework> CheckIfFireworkExists(Guid Id)

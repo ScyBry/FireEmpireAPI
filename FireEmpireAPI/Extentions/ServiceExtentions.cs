@@ -1,17 +1,17 @@
 ﻿using Contracts;
-using Microsoft.EntityFrameworkCore;
-using Service.Contracts;
-using Service;
-using Repository;
 using LoggerService;
+using Microsoft.EntityFrameworkCore;
+using Repository;
+using Service;
+using Service.Contracts;
 
 
 namespace FireEmpireAPI.Extentions;
 
 public static class ServiceExtentions
 {
-    
-    
+
+
     public static void ConfigureCors(this IServiceCollection services) =>
         services.AddCors(options =>
         {
@@ -21,11 +21,11 @@ public static class ServiceExtentions
                     .AllowAnyHeader()
                     .WithExposedHeaders("X-Pagination"));
         });
-    
+
     public static void ConfigureLoggerService(this IServiceCollection services) =>
         services.AddSingleton<ILoggerManager, LoggerManager>();
-    
-    
+
+
     public static void ConfigureRepositoryManager(this IServiceCollection services) =>
         services.AddScoped<IRepositoryManager, RepositoryManager>();
 

@@ -21,3 +21,4 @@ C:\Users\oleg2\Source\Repos\FireEmpireAPI\Views\obj\Debug\net8.0\Views.dll
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\Views\obj\Debug\net8.0\refint\Views.dll
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\Views\obj\Debug\net8.0\Views.pdb
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\Views\obj\Debug\net8.0\ref\Views.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI\Views\obj\Debug\net8.0\Views.sourcelink.json

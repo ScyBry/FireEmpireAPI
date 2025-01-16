@@ -14,16 +14,16 @@ builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 
-app.UseStaticFiles(); 
+app.UseStaticFiles();
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
         Path.Combine(Directory.GetCurrentDirectory(), "Uploads")),
-    RequestPath = "/Uploads" 
+    RequestPath = "/Uploads"
 });
 
 LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
-    
+
 
 app.UseHttpsRedirection();
 app.UseCors("CorsPolicy");

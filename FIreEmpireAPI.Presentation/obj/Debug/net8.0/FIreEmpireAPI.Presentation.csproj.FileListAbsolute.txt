@@ -53,3 +53,4 @@ C:\Users\oleg2\Source\Repos\FireEmpireAPI\FIreEmpireAPI.Presentation\obj\Debug\n
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\FIreEmpireAPI.Presentation\obj\Debug\net8.0\refint\FIreEmpireAPI.Presentation.dll
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\FIreEmpireAPI.Presentation\obj\Debug\net8.0\FIreEmpireAPI.Presentation.pdb
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\FIreEmpireAPI.Presentation\obj\Debug\net8.0\ref\FIreEmpireAPI.Presentation.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI\FIreEmpireAPI.Presentation\obj\Debug\net8.0\FIreEmpireAPI.Presentation.sourcelink.json

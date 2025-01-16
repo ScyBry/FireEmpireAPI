@@ -16,6 +16,13 @@ public class MappingProfile : Profile
         CreateMap<ProductForCreationDTO, Product>().ForMember(c => c.ImagesPath, opt => opt.Ignore());
         CreateMap<Product, ProductDTO>();
 
-        CreateMap<FireworkForCreationDTO, Firework>();
+        CreateMap<FireworkForCreationDTO, Firework>().AfterMap((src, dest)
+            =>
+        {
+            dest.NormalizedName = NormalizeName(src.Name);
+        });
     }
+
+
+    private string NormalizeName(string name) => string.IsNullOrEmpty(name) ? string.Empty : name.ToLower().Replace(" ", string.Empty);
 }

@@ -22,6 +22,81 @@ namespace FireEmpireAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Entities.Models.Event", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("EventID");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Events");
+                });
+
+            modelBuilder.Entity("Entities.Models.EventFirework", b =>
+                {
+                    b.Property<Guid>("EventId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("FireworkId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("QuantityUsed")
+                        .HasColumnType("int");
+
+                    b.HasKey("EventId", "FireworkId");
+
+                    b.HasIndex("FireworkId");
+
+                    b.ToTable("EventFirework");
+                });
+
+            modelBuilder.Entity("Entities.Models.Firework", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("FireworkID");
+
+                    b.Property<string>("HazardClass")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NormalizedName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("PricePerBox")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("PricePerUnit")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("VideoLink")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Fireworks");
+                });
+
             modelBuilder.Entity("Entities.Models.Project", b =>
                 {
                     b.Property<Guid>("Id")
@@ -54,6 +129,35 @@ namespace FireEmpireAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Projects");
+                });
+
+            modelBuilder.Entity("Entities.Models.EventFirework", b =>
+                {
+                    b.HasOne("Entities.Models.Event", "Event")
+                        .WithMany("EventFireworks")
+                        .HasForeignKey("EventId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Entities.Models.Firework", "Firework")
+                        .WithMany("EventFireworks")
+                        .HasForeignKey("FireworkId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Event");
+
+                    b.Navigation("Firework");
+                });
+
+            modelBuilder.Entity("Entities.Models.Event", b =>
+                {
+                    b.Navigation("EventFireworks");
+                });
+
+            modelBuilder.Entity("Entities.Models.Firework", b =>
+                {
+                    b.Navigation("EventFireworks");
                 });
 #pragma warning restore 612, 618
         }

@@ -23,3 +23,4 @@ C:\Users\oleg2\Source\Repos\FireEmpireAPI\Shared\obj\Debug\net8.0\Shared.dll
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\Shared\obj\Debug\net8.0\refint\Shared.dll
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\Shared\obj\Debug\net8.0\Shared.pdb
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\Shared\obj\Debug\net8.0\ref\Shared.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI\Shared\obj\Debug\net8.0\Shared.sourcelink.json

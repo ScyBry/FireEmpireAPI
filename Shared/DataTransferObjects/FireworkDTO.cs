@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Shared.DataTransferObjects;
 
@@ -7,6 +6,7 @@ public class FireworkDTO
 {
     public Guid Id { get; init; }
     public string Name { get; init; }
+    public string NormalizedName { get; init; }
     public int Quantity { get; init; }
     public string VideoLink { get; init; }
     public string HazardClass { get; init; }

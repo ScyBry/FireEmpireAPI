@@ -33,3 +33,4 @@ C:\Users\oleg2\Source\Repos\FireEmpireAPI\LoggerService\obj\Debug\net8.0\LoggerS
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\LoggerService\obj\Debug\net8.0\refint\LoggerService.dll
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\LoggerService\obj\Debug\net8.0\LoggerService.pdb
 C:\Users\oleg2\Source\Repos\FireEmpireAPI\LoggerService\obj\Debug\net8.0\ref\LoggerService.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI\LoggerService\obj\Debug\net8.0\LoggerService.sourcelink.json

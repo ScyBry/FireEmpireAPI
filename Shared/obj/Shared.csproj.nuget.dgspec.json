@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Shared\\Shared.csproj": {}
+    "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Shared\\Shared.csproj": {
+    "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\oleg2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\oleg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\oleg2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oleg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {

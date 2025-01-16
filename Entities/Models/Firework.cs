@@ -12,6 +12,8 @@ namespace Entities.Models
         [DataType(DataType.Text)]
         public string Name { get; set; }
 
+        public string NormalizedName { get; set; }
+
         [Required(ErrorMessage = "Количество является обязательным")]
         [Range(1, int.MaxValue, ErrorMessage = "Количество должно быть больше 0")]
         public int Quantity { get; set; }
