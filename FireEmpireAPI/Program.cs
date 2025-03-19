@@ -4,6 +4,8 @@ using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
 builder.Services.ConfigureCors();
 builder.Services.ConfigureLoggerService();
 builder.Services.ConfigureRepositoryManager();
@@ -11,8 +13,20 @@ builder.Services.ConfigureServiceManager();
 builder.Services.AddControllers();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "FireEmpireAPI v1");
+        c.RoutePrefix = string.Empty; // Set Swagger UI to root
+    });
+}
+
 
 app.UseStaticFiles();
 app.UseStaticFiles(new StaticFileOptions

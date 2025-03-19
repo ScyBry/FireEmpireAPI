@@ -410,3 +410,7 @@ C:\Users\oleg\Source\Repos\FireEmpireAPI\FireEmpireAPI\bin\Debug\net8.0\runtimes
 C:\Users\oleg\Source\Repos\FireEmpireAPI\FireEmpireAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\oleg\Source\Repos\FireEmpireAPI\FireEmpireAPI\obj\Debug\net8.0\staticwebassets\msbuild.FireEmpireAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\oleg\Source\Repos\FireEmpireAPI\FireEmpireAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\oleg\Source\Repos\FireEmpireAPI\FireEmpireAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI\FireEmpireAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI\FireEmpireAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI\FireEmpireAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

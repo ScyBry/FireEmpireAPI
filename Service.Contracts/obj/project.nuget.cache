@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GD3EOzRBkr4=",
+  "dgSpecHash": "AKq4gvFguY8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\Service.Contracts\\Service.Contracts.csproj",
+  "projectFilePath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Service.Contracts\\Service.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oleg\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\oleg\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

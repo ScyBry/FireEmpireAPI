@@ -52,6 +52,9 @@ namespace Service
 
         public async Task<IEnumerable<FireworkDTO>> ImportFireworksFromExcelAsync(IFormFile file)
         {
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
+
             using var package = new ExcelPackage(file.OpenReadStream());
             var worksheet = package.Workbook.Worksheets[0];
 
@@ -64,11 +67,11 @@ namespace Service
                 var fireworkForCreation = new FireworkForCreationDTO
                 {
                     Name = worksheet.Cells[row, 1].Value?.ToString(),
-                    Quantity = int.Parse(worksheet.Cells[row, 2].Value?.ToString() ?? "0"),
+                    Quantity = int.TryParse(worksheet.Cells[row, 2].Value?.ToString(), out var quantity) ? quantity : 0,
                     VideoLink = worksheet.Cells[row, 3].Value?.ToString(),
                     HazardClass = worksheet.Cells[row, 4].Value?.ToString(),
-                    PricePerUnit = decimal.Parse(worksheet.Cells[row, 5].Value?.ToString() ?? "0"),
-                    PricePerBox = decimal.Parse(worksheet.Cells[row, 6].Value?.ToString() ?? "0")
+                    PricePerUnit = decimal.TryParse(worksheet.Cells[row, 5].Value?.ToString(), out var pricePerUnit) ? pricePerUnit : 0,
+                    PricePerBox = decimal.TryParse(worksheet.Cells[row, 6].Value?.ToString(), out var pricePerBox) ? pricePerBox : 0
                 };
 
                 var fireworkEntity = _mapper.Map<Firework>(fireworkForCreation);
@@ -83,6 +86,9 @@ namespace Service
                     notAddedFireworks.Add(fireworkEntity);
                 }
             }
+
+            Console.Write(fireworks);
+
 
             foreach (var firework in fireworks)
             {

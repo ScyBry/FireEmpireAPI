@@ -8,6 +8,7 @@ namespace Repository
         public DbSet<Project>? Projects { get; set; }
         public DbSet<Firework>? Fireworks { get; set; }
         public DbSet<Event>? Events { get; set; }
+        public DbSet<Category>? Categories { get; set; }
 
 
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mx5875kjUFA=",
+  "dgSpecHash": "IbbZcb+1tsY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\FIreEmpireAPI.Presentation\\FIreEmpireAPI.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\FIreEmpireAPI.Presentation\\FIreEmpireAPI.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oleg\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\oleg\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",

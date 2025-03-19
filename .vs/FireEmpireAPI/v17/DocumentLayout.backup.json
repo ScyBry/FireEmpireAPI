@@ -1,42 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|c:\\users\\oleg2\\source\\repos\\fireempireapi\\repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|solutionrelative:repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{983D121F-C74C-47C3-85AF-1FA4782850A3}|Service\\Service.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi\\service\\fireworksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{983D121F-C74C-47C3-85AF-1FA4782850A3}|Service\\Service.csproj|solutionrelative:service\\fireworksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F76A2F83-5D6F-4445-8DAF-3CEEB3B7DEEB}|Contracts\\Contracts.csproj|c:\\users\\oleg2\\source\\repos\\fireempireapi\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F76A2F83-5D6F-4445-8DAF-3CEEB3B7DEEB}|Contracts\\Contracts.csproj|solutionrelative:contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{789D578E-F098-4661-8A27-07D174A912D7}|FIreEmpireAPI.Presentation\\FIreEmpireAPI.Presentation.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi\\fireempireapi.presentation\\controllers\\fireworkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789D578E-F098-4661-8A27-07D174A912D7}|FIreEmpireAPI.Presentation\\FIreEmpireAPI.Presentation.csproj|solutionrelative:fireempireapi.presentation\\controllers\\fireworkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F76A2F83-5D6F-4445-8DAF-3CEEB3B7DEEB}|Contracts\\Contracts.csproj|c:\\users\\oleg2\\source\\repos\\fireempireapi\\contracts\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F76A2F83-5D6F-4445-8DAF-3CEEB3B7DEEB}|Contracts\\Contracts.csproj|solutionrelative:contracts\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|c:\\users\\oleg2\\source\\repos\\fireempireapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|solutionrelative:repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76A2F83-5D6F-4445-8DAF-3CEEB3B7DEEB}|Contracts\\Contracts.csproj|c:\\users\\oleg2\\source\\repos\\fireempireapi\\contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F76A2F83-5D6F-4445-8DAF-3CEEB3B7DEEB}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|c:\\users\\oleg2\\source\\repos\\fireempireapi\\entities\\models\\eventfirework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|solutionrelative:entities\\models\\eventfirework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|c:\\users\\oleg2\\source\\repos\\fireempireapi\\entities\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|solutionrelative:entities\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|c:\\users\\oleg2\\source\\repos\\fireempireapi\\entities\\models\\firework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|solutionrelative:entities\\models\\firework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|c:\\users\\oleg2\\source\\repos\\fireempireapi\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|solutionrelative:repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16B348DD-4A6D-483B-BB39-4DD4D65F7369}|FireEmpireAPI\\FireEmpireAPI.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi\\fireempireapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B348DD-4A6D-483B-BB39-4DD4D65F7369}|FireEmpireAPI\\FireEmpireAPI.csproj|solutionrelative:fireempireapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 203,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,119 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventFirework.cs",
-              "DocumentMoniker": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Entities\\Models\\EventFirework.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\EventFirework.cs",
-              "ToolTip": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Entities\\Models\\EventFirework.cs",
-              "RelativeToolTip": "Entities\\Models\\EventFirework.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FireworksService.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\Service\\FireworksService.cs",
+              "RelativeDocumentMoniker": "Service\\FireworksService.cs",
+              "ToolTip": "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\Service\\FireworksService.cs",
+              "RelativeToolTip": "Service\\FireworksService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:26:23.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Contracts\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Contracts\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Contracts\\IRepositoryBase.cs",
-              "RelativeToolTip": "Contracts\\IRepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:14:09.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "Repository\\ProductRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:11:15.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Contracts\\IProjectRepository.cs",
-              "RelativeDocumentMoniker": "Contracts\\IProjectRepository.cs",
-              "ToolTip": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Contracts\\IProjectRepository.cs",
-              "RelativeToolTip": "Contracts\\IProjectRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:10:57.492Z",
+              "WhenOpened": "2025-01-20T13:01:11.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Contracts\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Contracts\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Contracts\\IProductRepository.cs",
-              "RelativeToolTip": "Contracts\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FireworkController.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\FIreEmpireAPI.Presentation\\Controllers\\FireworkController.cs",
+              "RelativeDocumentMoniker": "FIreEmpireAPI.Presentation\\Controllers\\FireworkController.cs",
+              "ToolTip": "C:\\Users\\oleg\\Source\\Repos\\FireEmpireAPI\\FIreEmpireAPI.Presentation\\Controllers\\FireworkController.cs",
+              "RelativeToolTip": "FIreEmpireAPI.Presentation\\Controllers\\FireworkController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:10:55.493Z",
+              "WhenOpened": "2025-01-20T12:55:32.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Repository\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Repository\\RepositoryBase.cs",
-              "RelativeToolTip": "Repository\\RepositoryBase.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\FireEmpireAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FireEmpireAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\FireEmpireAPI\\Program.cs",
+              "RelativeToolTip": "FireEmpireAPI\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:05:40.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Firework.cs",
-              "DocumentMoniker": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Entities\\Models\\Firework.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Firework.cs",
-              "ToolTip": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Entities\\Models\\Firework.cs",
-              "RelativeToolTip": "Entities\\Models\\Firework.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:03:43.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Entities\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Event.cs",
-              "ToolTip": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Entities\\Models\\Event.cs",
-              "RelativeToolTip": "Entities\\Models\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:03:42.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RepositoryContext.cs",
-              "DocumentMoniker": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Repository\\RepositoryContext.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryContext.cs",
-              "ToolTip": "C:\\Users\\oleg2\\source\\repos\\FireEmpireAPI\\Repository\\RepositoryContext.cs",
-              "RelativeToolTip": "Repository\\RepositoryContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T17:56:38.196Z",
+              "WhenOpened": "2025-01-17T10:08:05.496Z",
               "EditorCaption": ""
             }
           ]
