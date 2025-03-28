@@ -3878,22 +3878,6 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
-      "FIreEmpireAPI.Presentation/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Contracts": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Service": "1.0.0",
-          "Service.Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/FIreEmpireAPI.Presentation.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FIreEmpireAPI.Presentation.dll": {}
-        }
-      },
       "LoggerService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -11620,11 +11604,6 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
-    "FIreEmpireAPI.Presentation/1.0.0": {
-      "type": "project",
-      "path": "../FIreEmpireAPI.Presentation/FIreEmpireAPI.Presentation.csproj",
-      "msbuildProject": "../FIreEmpireAPI.Presentation/FIreEmpireAPI.Presentation.csproj"
-    },
     "LoggerService/1.0.0": {
       "type": "project",
       "path": "../LoggerService/LoggerService.csproj",
@@ -11661,7 +11640,6 @@
       "AutoMapper >= 13.0.1",
       "Contracts >= 1.0.0",
       "Entities >= 1.0.0",
-      "FIreEmpireAPI.Presentation >= 1.0.0",
       "LoggerService >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
@@ -11675,24 +11653,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\oleg\\.nuget\\packages\\": {},
+    "C:\\Users\\oleg2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\FireEmpireAPI\\FireEmpireAPI.csproj",
+      "projectUniqueName": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\FireEmpireAPI\\FireEmpireAPI.csproj",
       "projectName": "FireEmpireAPI",
-      "projectPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\FireEmpireAPI\\FireEmpireAPI.csproj",
-      "packagesPath": "C:\\Users\\oleg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\FireEmpireAPI\\obj\\",
+      "projectPath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\FireEmpireAPI\\FireEmpireAPI.csproj",
+      "packagesPath": "C:\\Users\\oleg2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\FireEmpireAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\oleg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oleg2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11707,29 +11684,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Contracts\\Contracts.csproj"
+            "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Contracts\\Contracts.csproj"
             },
-            "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Entities\\Entities.csproj"
+            "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\FIreEmpireAPI.Presentation\\FIreEmpireAPI.Presentation.csproj": {
-              "projectPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\FIreEmpireAPI.Presentation\\FIreEmpireAPI.Presentation.csproj"
+            "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\LoggerService\\LoggerService.csproj": {
+              "projectPath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\LoggerService\\LoggerService.csproj"
             },
-            "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\LoggerService\\LoggerService.csproj": {
-              "projectPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\LoggerService\\LoggerService.csproj"
+            "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Repository\\Repository.csproj"
             },
-            "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Repository\\Repository.csproj"
+            "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Service.Contracts\\Service.Contracts.csproj": {
+              "projectPath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Service.Contracts\\Service.Contracts.csproj"
             },
-            "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Service.Contracts\\Service.Contracts.csproj": {
-              "projectPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Service.Contracts\\Service.Contracts.csproj"
+            "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Service\\Service.csproj"
             },
-            "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Service\\Service.csproj"
-            },
-            "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\Shared\\Shared.csproj"
+            "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\Shared\\Shared.csproj"
             }
           }
         }
@@ -11743,7 +11717,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -11795,7 +11770,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

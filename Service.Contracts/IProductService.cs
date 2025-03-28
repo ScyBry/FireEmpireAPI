@@ -1,11 +1,7 @@
-﻿using Shared.DataTransferObjects.Product;
-
-namespace Service.Contracts;
-
-public interface IProductService
+﻿namespace Service.Contracts
 {
-    Task<IEnumerable<ProductDTO>> GetAllProductsAsync(bool trackChanges);
-    Task<ProductDTO> GetProductByIdAsync(Guid id, bool trackChanges);
-    Task<ProductDTO> CreateProductAsync(ProductForCreationDTO product);
-    Task DeleteProductAsync(Guid id, bool trackChanges);
+    public interface IProductService
+    {
+        
+    }
 }

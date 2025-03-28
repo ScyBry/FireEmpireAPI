@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CYLvhrWFxp8=",
+  "dgSpecHash": "ueoMzHCFLA8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI\\LoggerService\\LoggerService.csproj",
+  "projectFilePath": "C:\\Users\\oleg2\\RiderProjects\\FireEmpireAPI\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\oleg\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512"
+    "C:\\Users\\oleg2\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512"
   ],
   "logs": []
 }

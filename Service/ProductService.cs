@@ -24,7 +24,7 @@ internal sealed class ProductService : IProductService
         _fileService = fileService;
     }
 
-   public async Task<IEnumerable<Product>> GetAllProductsAsync(bool trackChanges) => {
-       
-   }
+    public async Task<IEnumerable<ProductDTO>> GetAllProductsAsync(bool trackChanges)
+    {
+    }
 }
