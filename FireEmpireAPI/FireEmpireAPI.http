@@ -1,0 +1,6 @@
+@FireEmpireAPI_HostAddress = http://localhost:5226
+
+GET {{FireEmpireAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi2.0\\repository\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|solutionrelative:repository\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B517FD-871A-4EE8-8226-E6BA3EC9435B}|Shared\\Shared.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi2.0\\shared\\datatransferobjects\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B517FD-871A-4EE8-8226-E6BA3EC9435B}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{983D121F-C74C-47C3-85AF-1FA4782850A3}|Service\\Service.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi2.0\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{983D121F-C74C-47C3-85AF-1FA4782850A3}|Service\\Service.csproj|solutionrelative:service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi2.0\\entities\\exceptions\\productexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\productexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi2.0\\entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi2.0\\entities\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi2.0\\entities\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{491F67F6-E500-4331-8356-A7673044BFEB}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B517FD-871A-4EE8-8226-E6BA3EC9435B}|Shared\\Shared.csproj|c:\\users\\oleg\\source\\repos\\fireempireapi2.0\\shared\\datatransferobjects\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B517FD-871A-4EE8-8226-E6BA3EC9435B}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 203,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Shared\\DataTransferObjects\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Shared\\DataTransferObjects\\CategoryDto.cs",
+              "RelativeToolTip": "Shared\\DataTransferObjects\\CategoryDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:34:46.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Repository\\ProductCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Repository\\ProductCategoryRepository.cs",
+              "RelativeToolTip": "Repository\\ProductCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:13:17.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductException.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Entities\\Exceptions\\ProductException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\ProductException.cs",
+              "ToolTip": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Entities\\Exceptions\\ProductException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\ProductException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:58:12.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:58:11.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConflictException.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Entities\\Exceptions\\ConflictException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\ConflictException.cs",
+              "ToolTip": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Entities\\Exceptions\\ConflictException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\ConflictException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:58:09.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Entities\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Entities\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:58:08.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Shared\\DataTransferObjects\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Shared\\DataTransferObjects\\ProductDTO.cs",
+              "RelativeToolTip": "Shared\\DataTransferObjects\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:57:04.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\oleg\\source\\repos\\FireEmpireAPI2.0\\Service\\ProductService.cs",
+              "RelativeToolTip": "Service\\ProductService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:53:35.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

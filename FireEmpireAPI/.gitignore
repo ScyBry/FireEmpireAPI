@@ -1,0 +1,10 @@
+﻿# Visual Studio
+.vs/
+.idea/
+.vscode/
+
+.jfm
+.vsidx
+
+.vs
+.idea
