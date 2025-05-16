@@ -3,10 +3,10 @@
     public class WarehouseProduct : BaseEntity
     {
         public Guid ProductId { get; set; }
-        public ProductEntity Product { get; set; }
+        public required ProductEntity Product { get; set; }
 
         public Guid WarehouseId { get; set; }
-        public Warehouse Warehouse { get; set; }
+        public required Warehouse Warehouse { get; set; }
 
         public int TotalQuantity { get; set; }
         public int ReservedQuantity { get; set; }

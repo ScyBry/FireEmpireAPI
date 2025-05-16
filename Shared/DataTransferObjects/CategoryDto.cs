@@ -24,8 +24,6 @@ namespace Shared.DataTransferObjects
     public class CategoryParameters : QueryStringParameters
     {
         public string SearchTerm { get; set; }
+        public bool IncludeProducts { get; set; }
     }
-
-
-
 }

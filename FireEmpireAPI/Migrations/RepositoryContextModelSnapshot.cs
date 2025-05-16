@@ -22,6 +22,75 @@ namespace FireEmpireAPI.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Entities.Models.ContactEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("BirthDay")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("JobTitle")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("MobilePhone")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("boolean");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Contacts", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("288af5ab-9841-4e82-b55b-1e034e6b0cc4"),
+                            BirthDay = new DateTime(1990, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedAt = new DateTime(2025, 5, 16, 13, 30, 13, 381, DateTimeKind.Utc).AddTicks(4164),
+                            JobTitle = "Менеджер",
+                            MobilePhone = "+375291112233",
+                            Name = "Иван Иванов",
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = new Guid("0cdcb109-02f8-4abc-aeaa-6bdfa5d01718"),
+                            BirthDay = new DateTime(1995, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedAt = new DateTime(2025, 5, 16, 13, 30, 13, 381, DateTimeKind.Utc).AddTicks(5877),
+                            JobTitle = "Разработчик",
+                            MobilePhone = "+375293334455",
+                            Name = "Ольга Смирнова",
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = new Guid("b8b669e3-618c-40fc-9f62-d8fd4b0064f8"),
+                            BirthDay = new DateTime(1992, 9, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedAt = new DateTime(2025, 5, 16, 13, 30, 13, 381, DateTimeKind.Utc).AddTicks(5882),
+                            JobTitle = "Тестировщик",
+                            MobilePhone = "+375297778899",
+                            Name = "Петр Сидоров",
+                            isDeleted = false
+                        });
+                });
+
             modelBuilder.Entity("Entities.Models.Event", b =>
                 {
                     b.Property<Guid>("Id")
@@ -157,6 +226,10 @@ namespace FireEmpireAPI.Migrations
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("VideoUrl")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<bool>("isDeleted")
                         .HasColumnType("boolean");

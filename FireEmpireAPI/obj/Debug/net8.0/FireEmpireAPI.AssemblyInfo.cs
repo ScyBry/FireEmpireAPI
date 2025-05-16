@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FireEmpireAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97c515df764a8779bc89910b2ab78100c2ba0208")]
 [assembly: System.Reflection.AssemblyProductAttribute("FireEmpireAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FireEmpireAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

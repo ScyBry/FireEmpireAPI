@@ -9,11 +9,22 @@ namespace Repository
         {
         }
 
+
+        public async Task<IEnumerable<Event>> GetAllEventsAsync(bool includeEventProducts, bool trackChanges)
+        {
+            var query = FindAll(trackChanges).AsQueryable();
+
+            if (includeEventProducts)
+                query.Include(e => e.ProductUsages).ThenInclude(pu => pu.Product);
+
+            return await query.ToListAsync();
+        }
+
         public async Task<IEnumerable<Event>> GetUpcomingEventsAsync(bool trackChanges) =>
-            await FindByCondition(e => e.StartDate > DateTime.UtcNow && !e.isDeleted, trackChanges).OrderBy(e => e.StartDate).ToListAsync();
+            await FindByCondition(e => e.StartDate > DateTime.UtcNow && !e.isDeleted, trackChanges)
+                .OrderBy(e => e.StartDate).ToListAsync();
 
-
-        //public async Task<Event> GetEventWithDetailsAsync(Guid id, bool trackChanges) =>
-        //    await FindByCondition(e => e.Id.Equals(id) && !e.isDeleted, trackChanges)
+        public void CreateEvent(Event eventEntity) => CreateAsync(eventEntity);
+        public void DeleteEvent(Event eventEntity) => Delete(eventEntity);
     }
 }

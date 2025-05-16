@@ -4,15 +4,18 @@ using NLog;
 var builder = WebApplication.CreateBuilder(args);
 
 
-
 builder.Services.ConfigureCors();
 builder.Services.ConfigureLoggerService();
 builder.Services.ConfigureRepositoryManager();
-//builder.Services.ConfigureServiceManager();
+builder.Services.ConfigureServiceManager();
+builder.Services.ConfigureIdentity();
 builder.Services.AddControllers();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 

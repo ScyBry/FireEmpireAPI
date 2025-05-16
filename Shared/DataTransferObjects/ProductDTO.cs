@@ -11,7 +11,7 @@ namespace Shared.DataTransferObjects
         public HazardClass HazardClass { get; init; }
         public Guid CategoryId { get; init; }
         public string CategoryName { get; init; }
-        public IEnumerable<WarehouseStockDto> WarehouseStocks { get; init; }
+        //public IEnumerable<WarehouseStockDto> WarehouseStocks { get; init; }
     }
 
 

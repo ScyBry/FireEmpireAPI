@@ -52,3 +52,5 @@ C:\Users\oleg\source\repos\FireEmpireAPI2.0\LoggerService\obj\Debug\net8.0\Logge
 C:\Users\oleg\source\repos\FireEmpireAPI2.0\LoggerService\obj\Debug\net8.0\refint\LoggerService.dll
 C:\Users\oleg\source\repos\FireEmpireAPI2.0\LoggerService\obj\Debug\net8.0\LoggerService.pdb
 C:\Users\oleg\source\repos\FireEmpireAPI2.0\LoggerService\obj\Debug\net8.0\ref\LoggerService.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI2.0\LoggerService\bin\Debug\net8.0\Shared.dll
+C:\Users\oleg\Source\Repos\FireEmpireAPI2.0\LoggerService\bin\Debug\net8.0\Shared.pdb

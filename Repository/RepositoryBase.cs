@@ -18,12 +18,13 @@ public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : BaseEntit
         !trackChanges ? RepositoryContext.Set<T>().AsNoTracking() : RepositoryContext.Set<T>();
 
     public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges) =>
-        !trackChanges ? RepositoryContext.Set<T>().Where(expression).AsNoTracking()
-                         : RepositoryContext.Set<T>().Where(expression);
+        !trackChanges
+            ? RepositoryContext.Set<T>().Where(expression).AsNoTracking()
+            : RepositoryContext.Set<T>().Where(expression);
 
     public async Task<T> GetByIdAsync(Guid id, bool trackChanges) =>
-            await FindByCondition(e => e.Id.Equals(id), trackChanges)
-                .SingleOrDefaultAsync();
+        await FindByCondition(e => e.Id.Equals(id), trackChanges)
+            .SingleOrDefaultAsync();
 
     public async Task CreateAsync(T entity) =>
         await RepositoryContext.Set<T>().AddAsync(entity);
@@ -36,5 +37,4 @@ public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : BaseEntit
 
     public async Task<bool> ExistsAsync(Expression<Func<T, bool>> expression) =>
         await RepositoryContext.Set<T>().AnyAsync(expression);
-
 }

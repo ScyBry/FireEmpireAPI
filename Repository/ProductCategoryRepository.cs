@@ -2,7 +2,6 @@
 using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 using Shared.DataTransferObjects;
-using Shared.RequestFeatures;
 
 namespace Repository
 {
@@ -12,12 +11,15 @@ namespace Repository
         {
         }
 
-        public async Task<PagedList<ProductCategoryEntity>> GetAllCategoriesAsync(CategoryParameters parameters,
+        public async Task<IEnumerable<ProductCategoryEntity>> GetAllCategoriesAsync(CategoryParameters parameters,
             bool trackChanges)
         {
             var query = FindAll(trackChanges)
                 .Include(pc => pc.Products)
                 .AsQueryable();
+
+            if (parameters.IncludeProducts)
+                query = query.Include(pc => pc.Products);
 
             if (!string.IsNullOrWhiteSpace(parameters.SearchTerm))
             {
@@ -25,16 +27,17 @@ namespace Repository
                     pc.CategoryName.Contains(parameters.SearchTerm));
             }
 
-            if (!string.IsNullOrWhiteSpace(parameters.OrderBy))
-            {
-                query = query.OrderBy(parameters.OrderBy);
-            }
+            //if (!string.IsNullOrWhiteSpace(parameters.OrderBy))
+            //{
+            //    query = query.OrderBy(parameters.OrderBy);
+            //}
 
-            return PagedList<ProductCategoryEntity>.ToPagedList(
-                query,
-                parameters.PageNumber,
-                parameters.PageSize);
+            return await query.ToListAsync();
         }
+
+
+        public void CreateCategory(ProductCategoryEntity category) => CreateAsync(category);
+        public void DeleteCategory(ProductCategoryEntity category) => Delete(category);
 
 
         public async Task<ProductCategoryEntity> GetCategoryAsync(Guid categoryId, bool trackChanges,
@@ -54,7 +57,8 @@ namespace Repository
         public async Task<bool> CategoryHasProductsAsync(Guid categoryId)
         {
             return await FindByCondition(pc => pc.Id.Equals(categoryId), false)
-                .AnyAsync(pc => pc.Products.Any());
+                .Select(pc => pc.Products.Any())
+                .FirstOrDefaultAsync();
         }
     }
 }

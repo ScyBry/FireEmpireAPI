@@ -1,6 +1,9 @@
 ﻿using Entities.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Repository.Configuration;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace Repository
 {
@@ -12,6 +15,9 @@ namespace Repository
         public DbSet<EventProductUsage> EventProductUsages { get; set; }
         public DbSet<Warehouse> Warehouses { get; set; }
         public DbSet<WarehouseProduct> WarehouseProducts { get; set; }
+
+
+        public DbSet<ContactEntity> Contacts { get; set; }
 
         public RepositoryContext(DbContextOptions options) : base(options)
         {
@@ -25,6 +31,8 @@ namespace Repository
             modelBuilder.ApplyConfiguration(new EventProductUsageConfiguration());
             modelBuilder.ApplyConfiguration(new WarehouseConfiguration());
             modelBuilder.ApplyConfiguration(new WarehouseProductConfiguration());
+
+            modelBuilder.ApplyConfiguration(new ContactConfiguration());
         }
     }
 }
