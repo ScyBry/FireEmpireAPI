@@ -1,0 +1,10 @@
+2025-05-18 15:35:28.7971 ERROR Error in GetAllContactsAsync: An exception has been raised that is likely due to a transient failure.
+2025-05-18 15:35:31.2815 ERROR Error in GetAllContactsAsync: An exception has been raised that is likely due to a transient failure.
+2025-05-18 15:35:36.4987 ERROR Error in GetAllContactsAsync: An exception has been raised that is likely due to a transient failure.
+2025-05-18 17:14:08.7220 ERROR Error in CreateContactAsync: An error occurred while saving the entity changes. See the inner exception for details.
+2025-05-18 17:33:38.2842 ERROR Error in CreateContactAsync: An error occurred while saving the entity changes. See the inner exception for details.
+2025-05-18 17:42:57.4586 ERROR Error in CreateContactAsync: An error occurred while saving the entity changes. See the inner exception for details.
+2025-05-18 17:46:57.4140 ERROR Error in CreateContactAsync: An error occurred while saving the entity changes. See the inner exception for details.
+2025-05-18 17:58:04.7767 INFO Сработал роут
+2025-05-18 17:58:05.8270 INFO Сработал роут
+2025-05-18 17:59:46.2131 INFO Сработал роут
