@@ -55,8 +55,7 @@
               "RelativeToolTip": "Service\\ContactService.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAIwFsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:11:01.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T15:11:01.818Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Service.Contracts\\IContactService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:10:55.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T15:10:55.756Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Repository\\ContactRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwBYAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:10:40.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T15:10:40.537Z"
             }
           ]
         }

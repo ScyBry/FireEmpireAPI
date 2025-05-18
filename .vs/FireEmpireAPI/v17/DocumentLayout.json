@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\FireEmpireAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|c:\\projects\\fireempireapi\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|solutionrelative:repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|c:\\projects\\fireempireapi\\repository\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{266C6C5C-0C7C-43A0-B1E2-4FDB4DB255CE}|Repository\\Repository.csproj|solutionrelative:repository\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{983D121F-C74C-47C3-85AF-1FA4782850A3}|Service\\Service.csproj|c:\\projects\\fireempireapi\\service\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{983D121F-C74C-47C3-85AF-1FA4782850A3}|Service\\Service.csproj|solutionrelative:service\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93C3E3F0-91CD-4147-87A4-E67830E73459}|Service.Contracts\\Service.Contracts.csproj|c:\\projects\\fireempireapi\\service.contracts\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93C3E3F0-91CD-4147-87A4-E67830E73459}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,60 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 203,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Projects\\FireEmpireAPI\\Repository\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryBase.cs",
-              "ToolTip": "C:\\Projects\\FireEmpireAPI\\Repository\\RepositoryBase.cs",
-              "RelativeToolTip": "Repository\\RepositoryBase.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:11:30.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContactService.cs",
-              "DocumentMoniker": "C:\\Projects\\FireEmpireAPI\\Service\\ContactService.cs",
-              "RelativeDocumentMoniker": "Service\\ContactService.cs",
-              "ToolTip": "C:\\Projects\\FireEmpireAPI\\Service\\ContactService.cs",
-              "RelativeToolTip": "Service\\ContactService.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:11:01.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IContactService.cs",
-              "DocumentMoniker": "C:\\Projects\\FireEmpireAPI\\Service.Contracts\\IContactService.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\IContactService.cs",
-              "ToolTip": "C:\\Projects\\FireEmpireAPI\\Service.Contracts\\IContactService.cs",
-              "RelativeToolTip": "Service.Contracts\\IContactService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:10:55.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\FireEmpireAPI\\Repository\\ContactRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ContactRepository.cs",
-              "ToolTip": "C:\\Projects\\FireEmpireAPI\\Repository\\ContactRepository.cs",
-              "RelativeToolTip": "Repository\\ContactRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBYAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:10:40.537Z"
             }
           ]
         }
