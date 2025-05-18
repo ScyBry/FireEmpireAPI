@@ -34,14 +34,19 @@ namespace FireEmpireAPI.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
                     b.Property<string>("JobTitle")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
 
                     b.Property<string>("MobilePhone")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -51,43 +56,40 @@ namespace FireEmpireAPI.Migrations
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<bool>("isDeleted")
-                        .HasColumnType("boolean");
-
                     b.HasKey("Id");
 
-                    b.ToTable("Contacts", (string)null);
+                    b.ToTable("Contacts");
 
                     b.HasData(
                         new
                         {
-                            Id = new Guid("288af5ab-9841-4e82-b55b-1e034e6b0cc4"),
-                            BirthDay = new DateTime(1990, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            CreatedAt = new DateTime(2025, 5, 16, 13, 30, 13, 381, DateTimeKind.Utc).AddTicks(4164),
+                            Id = new Guid("11111111-1111-1111-1111-111111111111"),
+                            BirthDay = new DateTime(1990, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
+                            CreatedAt = new DateTime(1992, 9, 30, 0, 0, 0, 0, DateTimeKind.Utc),
+                            IsDeleted = false,
                             JobTitle = "Менеджер",
                             MobilePhone = "+375291112233",
-                            Name = "Иван Иванов",
-                            isDeleted = false
+                            Name = "Иван Иванов"
                         },
                         new
                         {
-                            Id = new Guid("0cdcb109-02f8-4abc-aeaa-6bdfa5d01718"),
-                            BirthDay = new DateTime(1995, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            CreatedAt = new DateTime(2025, 5, 16, 13, 30, 13, 381, DateTimeKind.Utc).AddTicks(5877),
+                            Id = new Guid("22222222-2222-2222-2222-222222222222"),
+                            BirthDay = new DateTime(1995, 5, 15, 0, 0, 0, 0, DateTimeKind.Utc),
+                            CreatedAt = new DateTime(1992, 9, 30, 0, 0, 0, 0, DateTimeKind.Utc),
+                            IsDeleted = false,
                             JobTitle = "Разработчик",
                             MobilePhone = "+375293334455",
-                            Name = "Ольга Смирнова",
-                            isDeleted = false
+                            Name = "Ольга Смирнова"
                         },
                         new
                         {
-                            Id = new Guid("b8b669e3-618c-40fc-9f62-d8fd4b0064f8"),
-                            BirthDay = new DateTime(1992, 9, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            CreatedAt = new DateTime(2025, 5, 16, 13, 30, 13, 381, DateTimeKind.Utc).AddTicks(5882),
+                            Id = new Guid("33333333-3333-3333-3333-333333333333"),
+                            BirthDay = new DateTime(1992, 9, 30, 0, 0, 0, 0, DateTimeKind.Utc),
+                            CreatedAt = new DateTime(1992, 9, 30, 0, 0, 0, 0, DateTimeKind.Utc),
+                            IsDeleted = false,
                             JobTitle = "Тестировщик",
                             MobilePhone = "+375297778899",
-                            Name = "Петр Сидоров",
-                            isDeleted = false
+                            Name = "Петр Сидоров"
                         });
                 });
 
@@ -101,7 +103,6 @@ namespace FireEmpireAPI.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("EventDescription")
-                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("character varying(500)");
 
@@ -110,8 +111,12 @@ namespace FireEmpireAPI.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
 
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
                     b.Property<string>("Location")
-                        .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("character varying(200)");
 
@@ -120,9 +125,6 @@ namespace FireEmpireAPI.Migrations
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
-
-                    b.Property<bool>("isDeleted")
-                        .HasColumnType("boolean");
 
                     b.HasKey("Id");
 
@@ -141,8 +143,15 @@ namespace FireEmpireAPI.Migrations
                     b.Property<Guid>("EventId")
                         .HasColumnType("uuid");
 
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
                     b.Property<bool>("IsReturned")
-                        .HasColumnType("boolean");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
 
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uuid");
@@ -161,9 +170,6 @@ namespace FireEmpireAPI.Migrations
 
                     b.Property<Guid>("WarehouseId")
                         .HasColumnType("uuid");
-
-                    b.Property<bool>("isDeleted")
-                        .HasColumnType("boolean");
 
                     b.HasKey("Id");
 
@@ -190,11 +196,13 @@ namespace FireEmpireAPI.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
-
-                    b.Property<bool>("isDeleted")
-                        .HasColumnType("boolean");
 
                     b.HasKey("Id");
 
@@ -216,6 +224,11 @@ namespace FireEmpireAPI.Migrations
                     b.Property<int>("HazardClass")
                         .HasColumnType("integer");
 
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
                     b.Property<string>("ProductName")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -228,11 +241,8 @@ namespace FireEmpireAPI.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("VideoUrl")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<bool>("isDeleted")
-                        .HasColumnType("boolean");
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
 
                     b.HasKey("Id");
 
@@ -255,6 +265,11 @@ namespace FireEmpireAPI.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
                     b.Property<string>("Location")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -273,9 +288,6 @@ namespace FireEmpireAPI.Migrations
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<bool>("isDeleted")
-                        .HasColumnType("boolean");
-
                     b.HasKey("Id");
 
                     b.ToTable("Warehouses");
@@ -290,11 +302,18 @@ namespace FireEmpireAPI.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uuid");
 
                     b.Property<int>("ReservedQuantity")
-                        .HasColumnType("integer");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
 
                     b.Property<int>("TotalQuantity")
                         .HasColumnType("integer");
@@ -304,9 +323,6 @@ namespace FireEmpireAPI.Migrations
 
                     b.Property<Guid>("WarehouseId")
                         .HasColumnType("uuid");
-
-                    b.Property<bool>("isDeleted")
-                        .HasColumnType("boolean");
 
                     b.HasKey("Id");
 
@@ -322,19 +338,19 @@ namespace FireEmpireAPI.Migrations
                     b.HasOne("Entities.Models.Event", "Event")
                         .WithMany("ProductUsages")
                         .HasForeignKey("EventId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Entities.Models.ProductEntity", "Product")
                         .WithMany("ProductUsages")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Entities.Models.Warehouse", "Warehouse")
                         .WithMany("ProductUsages")
                         .HasForeignKey("WarehouseId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Event");
@@ -349,7 +365,7 @@ namespace FireEmpireAPI.Migrations
                     b.HasOne("Entities.Models.ProductCategoryEntity", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Category");
@@ -360,13 +376,13 @@ namespace FireEmpireAPI.Migrations
                     b.HasOne("Entities.Models.ProductEntity", "Product")
                         .WithMany("WarehouseProducts")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Entities.Models.Warehouse", "Warehouse")
                         .WithMany("WarehouseProducts")
                         .HasForeignKey("WarehouseId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Product");

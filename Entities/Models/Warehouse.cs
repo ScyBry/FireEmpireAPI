@@ -8,7 +8,7 @@
         public required string PhoneNumber { get; set; }
 
 
-        public  ICollection<WarehouseProduct> WarehouseProducts { get; set; } = new List<WarehouseProduct>();
-        public  ICollection<EventProductUsage> ProductUsages { get; set; } = new List<EventProductUsage>();
+        public ICollection<WarehouseProduct> WarehouseProducts { get; set; } = new List<WarehouseProduct>();
+        public ICollection<EventProductUsage> ProductUsages { get; set; } = new List<EventProductUsage>();
     }
 }

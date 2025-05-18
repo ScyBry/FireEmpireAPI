@@ -11,5 +11,8 @@ public class MappingProfile : Profile
         CreateMap<ContactEntity, ContactDto>();
         CreateMap<ContactForCreationDto, ContactEntity>();
         CreateMap<ContactForUpdateDto, ContactEntity>();
+
+
+
     }
 }

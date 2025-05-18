@@ -2248,7 +2248,7 @@
         },
         "runtime": {
           "Contracts.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2259,7 +2259,7 @@
         },
         "runtime": {
           "Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2273,7 +2273,7 @@
         },
         "runtime": {
           "FIreEmpireAPI.Presentation.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2285,7 +2285,7 @@
         },
         "runtime": {
           "LoggerService.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2300,7 +2300,7 @@
         },
         "runtime": {
           "Repository.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2324,7 +2324,7 @@
         },
         "runtime": {
           "Service.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2335,7 +2335,7 @@
         },
         "runtime": {
           "Service.Contracts.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2347,7 +2347,7 @@
         },
         "runtime": {
           "Shared.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2355,7 +2355,7 @@
       "Views/1.0.0": {
         "runtime": {
           "Views.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

@@ -1,4 +1,6 @@
-﻿namespace Entities.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Entities.Models
 {
     public class WarehouseProduct : BaseEntity
     {
@@ -12,6 +14,7 @@
         public int ReservedQuantity { get; set; }
 
 
+        [NotMapped]
         public int AvailableQuantity => TotalQuantity - ReservedQuantity;
     }
 }

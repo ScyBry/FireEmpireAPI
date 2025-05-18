@@ -34,3 +34,15 @@ C:\Users\oleg\source\repos\FireEmpireAPI2.0\Views\obj\Debug\net8.0\Views.dll
 C:\Users\oleg\source\repos\FireEmpireAPI2.0\Views\obj\Debug\net8.0\refint\Views.dll
 C:\Users\oleg\source\repos\FireEmpireAPI2.0\Views\obj\Debug\net8.0\Views.pdb
 C:\Users\oleg\source\repos\FireEmpireAPI2.0\Views\obj\Debug\net8.0\ref\Views.dll
+C:\Projects\FireEmpireAPI\Views\bin\Debug\net8.0\Views.deps.json
+C:\Projects\FireEmpireAPI\Views\bin\Debug\net8.0\Views.dll
+C:\Projects\FireEmpireAPI\Views\bin\Debug\net8.0\Views.pdb
+C:\Projects\FireEmpireAPI\Views\obj\Debug\net8.0\Views.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\FireEmpireAPI\Views\obj\Debug\net8.0\Views.AssemblyInfoInputs.cache
+C:\Projects\FireEmpireAPI\Views\obj\Debug\net8.0\Views.AssemblyInfo.cs
+C:\Projects\FireEmpireAPI\Views\obj\Debug\net8.0\Views.csproj.CoreCompileInputs.cache
+C:\Projects\FireEmpireAPI\Views\obj\Debug\net8.0\Views.sourcelink.json
+C:\Projects\FireEmpireAPI\Views\obj\Debug\net8.0\Views.dll
+C:\Projects\FireEmpireAPI\Views\obj\Debug\net8.0\refint\Views.dll
+C:\Projects\FireEmpireAPI\Views\obj\Debug\net8.0\Views.pdb
+C:\Projects\FireEmpireAPI\Views\obj\Debug\net8.0\ref\Views.dll

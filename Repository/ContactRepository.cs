@@ -1,6 +1,6 @@
-﻿using Entities.Models;
+﻿using Contracts;
+using Entities.Models;
 using Microsoft.EntityFrameworkCore;
-using Contracts;
 
 namespace Repository
 {
@@ -12,7 +12,7 @@ namespace Repository
 
 
         public async Task<IEnumerable<ContactEntity>> GetAllContacts(bool trackChanges) =>
-            await FindAll(trackChanges).ToListAsync();
+            await FindByCondition(c => c.IsDeleted != true, trackChanges).ToListAsync();
 
 
         public async Task<ContactEntity> GetContactByID(Guid id, bool trackChanges) =>

@@ -35,3 +35,16 @@ C:\Users\oleg\source\repos\FireEmpireAPI2.0\Entities\obj\Debug\net8.0\refint\Ent
 C:\Users\oleg\source\repos\FireEmpireAPI2.0\Entities\obj\Debug\net8.0\Entities.pdb
 C:\Users\oleg\source\repos\FireEmpireAPI2.0\Entities\obj\Debug\net8.0\ref\Entities.dll
 C:\Users\oleg\Source\Repos\FireEmpireAPI2.0\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+C:\Projects\FireEmpireAPI\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\Projects\FireEmpireAPI\Entities\bin\Debug\net8.0\Entities.dll
+C:\Projects\FireEmpireAPI\Entities\bin\Debug\net8.0\Entities.pdb
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\Entities.dll
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\Entities.pdb
+C:\Projects\FireEmpireAPI\Entities\obj\Debug\net8.0\ref\Entities.dll

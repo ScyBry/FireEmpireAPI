@@ -1,1 +1,391 @@
-[]
+[
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.CategoryController",
+    "Method": "GetCategories",
+    "RelativePath": "api/category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IncludeProducts",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.CategoryController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "Shared.DataTransferObjects.CategoryForCreationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.CategoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/category/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "includeProducts",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetCategoryById"
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/category/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "category",
+        "Type": "Shared.DataTransferObjects.ProductCategoryForUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.CategoryController",
+    "Method": "GetCategoryByCategoryId",
+    "RelativePath": "api/category/category/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "includeProducts",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ContactController",
+    "Method": "GetContacts",
+    "RelativePath": "api/contacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ContactController",
+    "Method": "CreateContact",
+    "RelativePath": "api/contacts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contactDto",
+        "Type": "Shared.DataTransferObjects.ContactForCreationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ContactController",
+    "Method": "GetContact",
+    "RelativePath": "api/contacts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ContactById"
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ContactController",
+    "Method": "UpdateContact",
+    "RelativePath": "api/contacts/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "contactDto",
+        "Type": "Shared.DataTransferObjects.ContactForUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ContactController",
+    "Method": "DeleteContact",
+    "RelativePath": "api/contacts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "HazardClass",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ProductController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Shared.DataTransferObjects.ProductForCreationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ProductController",
+    "Method": "GetProductById",
+    "RelativePath": "api/products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetProductById"
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "Shared.DataTransferObjects.ProductForUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/products/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FIreEmpireAPI.Presentation.Controllers.ProductController",
+    "Method": "GetProductsByCategory",
+    "RelativePath": "api/products/category/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "HazardClass",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

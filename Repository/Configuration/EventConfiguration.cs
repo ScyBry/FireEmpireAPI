@@ -9,10 +9,22 @@ namespace Repository.Configuration
         public void Configure(EntityTypeBuilder<Event> builder)
         {
             builder.HasKey(e => e.Id);
+            builder.Property(e => e.IsDeleted).HasDefaultValue(false);
 
-            builder.Property(e => e.EventName).IsRequired().HasMaxLength(100);
-            builder.Property(e => e.EventDescription).HasMaxLength(500);
-            builder.Property(e => e.Location).HasMaxLength(200);
+
+            builder.Property(e => e.EventName)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            builder.Property(e => e.EventDescription)
+                .HasMaxLength(500);
+
+            builder.Property(e => e.Location)
+                .HasMaxLength(200);
+
+            builder.Property(e => e.StartDate)
+                .IsRequired();
+
 
             builder.HasMany(e => e.ProductUsages)
                    .WithOne(epu => epu.Event)

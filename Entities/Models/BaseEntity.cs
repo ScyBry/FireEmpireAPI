@@ -9,6 +9,6 @@
 
         public DateTime? UpdatedAt { get; set; }
 
-        public bool isDeleted { get; set; } = false;
+        public bool IsDeleted { get; set; } = false;
     }
 }

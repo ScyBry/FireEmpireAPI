@@ -21,7 +21,7 @@ namespace Repository
         }
 
         public async Task<IEnumerable<Event>> GetUpcomingEventsAsync(bool trackChanges) =>
-            await FindByCondition(e => e.StartDate > DateTime.UtcNow && !e.isDeleted, trackChanges)
+            await FindByCondition(e => e.StartDate > DateTime.UtcNow && !e.IsDeleted, trackChanges)
                 .OrderBy(e => e.StartDate).ToListAsync();
 
         public void CreateEvent(Event eventEntity) => CreateAsync(eventEntity);

@@ -32,8 +32,13 @@ public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : BaseEntit
     public void Update(T entity) =>
         RepositoryContext.Set<T>().Update(entity);
 
-    public void Delete(T entity) =>
-        entity.isDeleted = true;
+    public void Delete(T entity)
+    {
+        entity.IsDeleted = true;
+        Update(entity);
+    }
+
+
 
     public async Task<bool> ExistsAsync(Expression<Func<T, bool>> expression) =>
         await RepositoryContext.Set<T>().AnyAsync(expression);
